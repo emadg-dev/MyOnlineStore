@@ -1,0 +1,9 @@
+asgiref            
+crispy-bootstrap5   
+Django             
+django-crispy-forms
+pip
+setuptools
+sqlparse 
+typing_extensions
+tzdata
