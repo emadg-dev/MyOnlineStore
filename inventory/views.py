@@ -103,7 +103,7 @@ class ProductAddView(CreateView,LoginRequiredMixin):
 
 class ProductUpdateView(UpdateView,LoginRequiredMixin): 
     model = Product 
-    template_name = 'productUpdate.html' 
+    template_name = 'productupdate.html' 
     fields = ['name','price', 'type'] 
 
 class ProductDeleteView(DeleteView,LoginRequiredMixin): 
