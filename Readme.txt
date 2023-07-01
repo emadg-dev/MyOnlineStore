@@ -1,4 +1,6 @@
-
+This is An Online-shop project with django, html, css, and bootstrap.
+you can view an online demo on this link:
+http://emadnistam.pythonanywhere.com/
 
 User Account:
 username = 'user'
