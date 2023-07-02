@@ -1,10 +1,8 @@
 from django.urls import path 
-from .views import SignUpView
-# ,PasswordUpdateConfirmView, PasswordUpdateView
+from .views import SignUpView, UserProfileView
 
 urlpatterns = [
     path('signup/', SignUpView.as_view(), name='signup'),
-    # path('changepassword/', PasswordUpdateView.as_view(), name='changepassword'),
-    # path('changepassword/confirmed/', PasswordUpdateConfirmView.as_view(), name='passwordupdateconfirm'),
+    path('profile/', UserProfileView.as_view(), name='userprofile'),
 
 ]

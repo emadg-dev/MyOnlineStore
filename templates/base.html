@@ -110,13 +110,15 @@
           class="dropdown-menu dropdown-menu-dark dropdown-menu-end"
           aria-labelledby="navbarDropdownMenuAvatar"
         >
-
+        {% if user.is_authenticated %}
+        <li >
+          <a class="dropdown-item" href="{% url 'userprofile' %}">Profile</a>
+        </li>
         {% if user.is_superuser %}
           <li >
             <a class="dropdown-item" href="{% url 'adminpanel' %}">Administration</a>
           </li>
           {% endif %}
-          {% if user.is_authenticated %}
           <li >
             <a class="dropdown-item" href="{% url 'logout' %}">Logout</a>
           </li>
