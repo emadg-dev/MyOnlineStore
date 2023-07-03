@@ -1,4 +1,5 @@
-This is An Online-shop project with django, html, css, and bootstrap.
+<b>This is An Online-shop project with django, html, css, and bootstrap.</b>
+
 you can view an online demo on this link:
 http://emadnistam.pythonanywhere.com/
 
